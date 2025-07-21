@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+:root {
+  --primary-color: hsl(47, 88%, 63%);
+  --secondary-color: hsl(0, 0%, 7%);
+  --grey: hsl(0, 0%, 42%);
+  --white: hsl(0, 0%, 100%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,20 +19,20 @@ body {
 
 .container {
   height: 100vh;
-  background-color: hsl(47, 88%, 63%);
+  background-color: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   padding: 1.2em;
   width: clamp(330px, 30%, 400px);
   border-radius: 20px;
-  border: 2px solid hsl(0, 0%, 7%);
+  border: 2px solid var(--secondary-color);
   box-shadow: 7px 7px 0 rgba(0, 0, 0);
 }
 
@@ -35,8 +42,8 @@ body {
 }
 
 #label {
-  background-color: hsl(47, 88%, 63%);
-  color: hsl(0, 0%, 7%);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   padding: 0.3em 0.6em;
   font-weight: 800;
   font-size: 0.875rem;
@@ -64,12 +71,12 @@ body {
 }
 
 #title:hover {
-  color: hsl(47, 88%, 63%);
+  color: var(--primary-color);
   cursor: pointer;
 }
 
 #description {
-  color: hsl(0, 0%, 42%);
+  color: var(--grey);
   font-weight: 500;
   margin-bottom: 20px;
   width: 100%;
