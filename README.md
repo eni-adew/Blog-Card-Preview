@@ -18,8 +18,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/eni-adew/Blog-Card-Preview)
-- Live Site URL: [Add live site URL here](https://blog-card-preview-xi.vercel.app/)
+- Solution URL: [Github](https://github.com/eni-adew/Blog-Card-Preview)
+- Live Site URL: [Vercel](https://blog-card-preview-xi.vercel.app/)
 
 ### Built with
 
