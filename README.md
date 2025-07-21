@@ -29,4 +29,4 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/eni-adew)
+- Frontend Mentor - [eni-adew](https://www.frontendmentor.io/profile/eni-adew)
